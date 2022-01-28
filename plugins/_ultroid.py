@@ -15,20 +15,20 @@ from . import LOG_CHANNEL, LOGS, Button, asst, eor, get_string, ultroid_cmd
 
 REPOMSG = """
 • **ULTROID USERBOT** •\n
-• Repo - [Click Here](https://github.com/TeamUltroid/Ultroid)
-• Addons - [Click Here](https://github.com/TeamUltroid/UltroidAddons)
-• Support - @UltroidSupport
+• Repo - [Click Here](https://github.com/PredatorHackerzZ/Renamer-Bot)
+• Addons - [Click Here](https://t.me/TellyFun_Official)
+• Support - @TeleRoid14
 """
 
 RP_BUTTONS = [
     [
-        Button.url(get_string("bot_3"), "https://github.com/TeamUltroid/Ultroid"),
-        Button.url("Addons", "https://github.com/TeamUltroid/UltroidAddons"),
+        Button.url(get_string("bot_3"), "https://github.com/PredatorHackerzZ/Ultroid-UB"),
+        Button.url("Addons", "https://t.me/TeleRoidGroup"),
     ],
-    [Button.url("Support Group", "t.me/ultroidsupport")],
+    [Button.url("Support Group", "https://t.me/TeleRoid14")],
 ]
 
-ULTSTRING = """🎇 **Thanks for Deploying Ultroid Userbot!**
+ULTSTRING = """🎇 **Thanks for Deploying Userbot!**
 
 • Here, are the Some Basic stuff from, where you can Know, about its Usage."""
 
@@ -59,7 +59,7 @@ async def useUltroid(rs):
     msg = await asst.send_message(
         LOG_CHANNEL,
         ULTSTRING,
-        file="https://telegra.ph/file/54a917cc9dbb94733ea5f.jpg",
+        file="https://telegra.ph/file/cda94d1fd7e6519cdc1c9.jpg",
         buttons=button,
     )
     await eor(rs, f"**[Click Here]({msg.message_link})**")
