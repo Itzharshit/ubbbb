@@ -10,9 +10,9 @@
 • `{i}button <text with button format`
    create button u can reply to pic also
 
-Format:- `{i}button Hey There! @UseUltroid 😎.
-[Ultroid | t.me/theUltroid][Support | t.me/UltroidSupport | same]
-[TeamUltroid | t.me/TeamUltroid]`
+Format:- `{i}button Hey There! @HindiWebNetwork 😎.
+[Ultroid | t.me/theTeleroid][Support | t.me/TeleRoid14 | same]
+[TeamUltroid | t.me/TeamTeleRoid]`
 """
 
 from pyUltroid.functions.tools import create_tl_btn, get_msg_button
