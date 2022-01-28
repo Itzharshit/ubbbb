@@ -28,7 +28,7 @@ if Owner_info_msg is None:
 
 **Message Forwards** - {udB.get_key("PMBOT")}
 
-**Ultroid [v{ultroid_version}](https://github.com/TeamUltroid/Ultroid), powered by @TeamUltroid**
+**Userbot [v{ultroid_version}](https://github.com/PredatorHackerzZ), powered by @TheTeleRoid**
 """
 
 
@@ -67,7 +67,7 @@ async def own(event):
         mention=event.sender.mention, me=inline_mention(ultroid_bot.me)
     )
     if custom_info:
-        msg += "\n\n• Powered by **@TheUltroid**"
+        msg += "\n\n• Made with ❤ by **@TheTeleRoid**"
     await event.edit(
         msg,
         buttons=[Button.inline("Close", data="closeit")],
@@ -106,7 +106,7 @@ async def ultroid(event):
             await get_stored_file(event, args)
         if not udB.get_key("STARTMSG"):
             if udB.get_key("PMBOT"):
-                ok = "You can contact my master using this bot!!\n\nSend your Message, I will Deliver it To Master."
+                ok = "You can contact my master using this bot!!\n\nSend your Message, I will Deliver it To Boss..."
             await event.reply(
                 f"Hey there {mention}, this is Ultroid Assistant of {me}!\n\n{ok}",
                 file=udB.get_key("STARTMEDIA"),
