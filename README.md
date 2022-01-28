@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/extras/logo_readme.jpg" alt="TeamUltroid Logo">
+  <img src="https://telegra.ph/file/cda94d1fd7e6519cdc1c9.jpg" alt="TeamUltroid Logo">
 </p>
 <h1 align="center">
   <b>Ultroid - UserBot</b>
@@ -38,7 +38,7 @@
 ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://deploy.ultroid.tech)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PredatorHackerzZ/Ultroid-UB)
 
 ## Deploy Locally
 - [Traditional Method](#local-deploy---traditional-method)
