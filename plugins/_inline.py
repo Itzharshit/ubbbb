@@ -24,7 +24,7 @@ from ._help import _main_help_menu
 
 # ================================================#
 
-TLINK = INLINE_PIC or "https://telegra.ph/file/74d6259983e0642923fdb.jpg"
+TLINK = INLINE_PIC or "https://telegra.ph/file/37eadf856ae789dc6da99.jpg"
 helps = get_string("inline_1")
 
 add_ons = udB.get_key("ADDONS")
@@ -43,8 +43,8 @@ upage = 0
 
 SUP_BUTTONS = [
     [
-        Button.url("• Repo •", url="https://github.com/TeamUltroid/Ultroid"),
-        Button.url("• Support •", url="t.me/UltroidSupport"),
+        Button.url("• Repo •", url="https://github.com/PredatorHackerzZ"),
+        Button.url("• Support •", url="t.me/TeleRoid14"),
     ],
 ]
 
@@ -53,9 +53,9 @@ SUP_BUTTONS = [
 
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
-    MSG = "• **Ultroid Userbot •**"
+    MSG = "• **Predator Userbot •**"
     WEB0 = InputWebDocument(
-        "https://telegra.ph/file/acd4f5d61369f74c5e7a7.jpg", 0, "image/jpg", []
+        "https://telegra.ph/file/450237e1660fa373ada8b.jpg", 0, "image/jpg", []
     )
     RES = [
         await o.builder.article(
@@ -183,7 +183,7 @@ async def uptd_plugin(event):
                 help_ += "\n"
     if not help_:
         help_ = f"{file} has no Detailed Help!"
-    help_ += "\n© Join @TeamUltroid"
+    help_ += "\n© Join @TeleRoidGroup"
     buttons = []
     if INLINE_PIC:
         data = f"sndplug_{key}_{file}"
